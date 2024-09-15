@@ -45,11 +45,11 @@ Navigate to http://127.0.0.1:5000 in your browser to view the application.
 
 # Demo
 
-![Scaling 1](app/static/images/screenshot.png)
+![Scaling 1](app/1.png)
 
-![Scaling 2](app/static/images/screenshot.png)
+![Scaling 2](app/2.png)
 
-![Rotating 1](app/static/images/screenshot.png)
+![Rotating 1](app/3.png)
 
-![Rotating](app/static/images/screenshot.png)
+![Rotating](app/4.png)
 
