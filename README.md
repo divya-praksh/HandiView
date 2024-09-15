@@ -42,3 +42,14 @@ A web application that integrates computer vision with a 3D model renderer, show
        python scripts/main.py
 
 Navigate to http://127.0.0.1:5000 in your browser to view the application.
+
+# Demo
+
+![Scaling 1](app/static/images/screenshot.png)
+
+![Scaling 2](app/static/images/screenshot.png)
+
+![Rotating 1](app/static/images/screenshot.png)
+
+![Rotating](app/static/images/screenshot.png)
+
