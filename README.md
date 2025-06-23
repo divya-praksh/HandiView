@@ -70,7 +70,7 @@ HandiView supports:
 
 ## 🚀 Try the Web Version (Live Demo)
 
-👉 [https://your-username.github.io/handiview/web-version/](#)
+👉 https://divya-praksh.github.io/HandiView/
 
 ---
 
