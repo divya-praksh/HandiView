@@ -337,10 +337,10 @@ If you use HandiView in academic research, please cite:
 
 ## 🌐 Connect & Support
 
-- **📧 Email**: [your-email@example.com](divya.prakash2514@gmail.com)
+- **📧 Email**: divya.prakash2514@gmail.com
 - **🐙 GitHub Issues**: [Report bugs or request features](https://github.com/divya-praksh/HandiView/issues)
 - **💬 Discussions**: [Join the community](https://github.com/divya-praksh/HandiView/discussions)
-- **💼 LinkedIn**: [Your Profile](www.linkedin.com/in/divya-prakash2514)
+- **💼 LinkedIn**: [My Profile](www.linkedin.com/in/divya-prakash2514)
 
 ### Support the Project
 
