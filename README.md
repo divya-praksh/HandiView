@@ -67,20 +67,10 @@ HandiView supports:
 
 ---
 
-## 📸 Demo & Screenshots
-
-*(Add these under docs/ folder)*
-```
-docs/
-├── desktop-demo.gif
-└── web-demo.gif
-```
-
----
 
 ## 🚀 Try the Web Version (Live Demo)
 
-👉 Coming soon: [https://your-username.github.io/handiview/web-version/](#)
+👉 [https://your-username.github.io/handiview/web-version/](#)
 
 ---
 
@@ -97,8 +87,6 @@ docs/
 
 This project is licensed under the MIT License.
 
----
 
-## 🤝 Contributions
 
 
