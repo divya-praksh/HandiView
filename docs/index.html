@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Hand Tracking Cube Control</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- MediaPipe -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1>3D Hand Tracking Cube Control</h1>
+            <div class="status-display">
+                <span class="status" id="modeStatus">Ready</span>
+                <span class="status status--info" id="handsStatus">No hands detected</span>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <!-- Camera Section -->
+            <section class="camera-section">
+                <div class="camera-container">
+                    <video id="videoElement" autoplay muted playsinline></video>
+                    <canvas id="canvasElement"></canvas>
+                    <div class="camera-overlay">
+                        <div class="loading-message" id="loadingMessage">
+                            <p>Initializing camera and hand tracking...</p>
+                        </div>
+                        <div class="error-message hidden" id="errorMessage">
+                            <p>Camera access denied or not available</p>
+                            <button class="btn btn--primary" id="retryButton">Retry Camera</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="camera-info">
+                    <h3>Hand Tracking</h3>
+                    <p>Use your hands to control the 3D cube:</p>
+                    <ul>
+                        <li><strong>3-finger pinch:</strong> Rotate cube</li>
+                        <li><strong>2-finger pinch (1 hand):</strong> Move position</li>
+                        <li><strong>2-finger pinch (2 hands):</strong> Scale size</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 3D Scene Section -->
+            <section class="scene-section">
+                <div class="scene-container">
+                    <div id="sceneContainer"></div>
+                </div>
+                <div class="scene-info">
+                    <h3>3D Interactive Cube</h3>
+                    <div class="cube-controls">
+                        <div class="control-item">
+                            <span class="control-label">Position:</span>
+                            <span id="positionDisplay">0, 0, -5</span>
+                        </div>
+                        <div class="control-item">
+                            <span class="control-label">Rotation:</span>
+                            <span id="rotationDisplay">0°, 0°, 0°</span>
+                        </div>
+                        <div class="control-item">
+                            <span class="control-label">Scale:</span>
+                            <span id="scaleDisplay">1.0</span>
+                        </div>
+                    </div>
+                    <button class="btn btn--secondary" id="resetButton">Reset Cube</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
