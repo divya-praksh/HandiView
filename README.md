@@ -7,7 +7,7 @@
 
 **HandiView** is a real-time 3D model viewer that revolutionizes human-computer interaction through intuitive hand gestures. Built for both desktop and web platforms, it demonstrates cutting-edge gesture recognition, 3D rendering, and accessibility-focused design.
 
-🚀 **[Live Web Demo](https://divya-praksh.github.io/HandiView/)** | 📹 **[Video Demo](https://youtu.be/your-demo-video)** | 📖 **[Technical Blog](https://your-blog.com/handiview)**
+🚀 **[Live Web Demo](https://divya-praksh.github.io/HandiView/)** 
 
 ---
 
@@ -130,45 +130,6 @@ python3 -m http.server 8000
 open http://localhost:8000
 ```
 
-## 📊 Performance Benchmarks
-
-### Desktop Performance
-| Hardware Configuration | Average FPS | Gesture Lag | Model Complexity |
-|------------------------|-------------|-------------|------------------|
-| RTX 3060 + i7-9700K | 60 FPS | <30ms | High (50K+ vertices) |
-| GTX 1050 + i5-8400 | 45 FPS | <50ms | Medium (10K vertices) |
-| Intel UHD + i3-8100 | 30 FPS | <80ms | Low (1K vertices) |
-
-### Web Performance
-| Browser + Device | Average FPS | Memory Usage | Camera Resolution |
-|------------------|-------------|--------------|-------------------|
-| Chrome (Desktop) | 30 FPS | ~150MB | 640x480 |
-| Firefox (Desktop) | 25 FPS | ~180MB | 640x480 |
-| Safari (macOS) | 28 FPS | ~140MB | 640x480 |
-| Chrome (Mobile) | 20 FPS | ~100MB | 480x360 |
-
----
-
-## 🎨 User Experience Design
-
-### Gesture Recognition Pipeline
-
-```
-Camera Input → Hand Detection → Landmark Extraction → 
-Gesture Classification → 3D Transform Calculation → 
-Smooth Interpolation → Real-time Rendering
-```
-
-### Accessibility Features
-
-- **🎯 High Contrast Mode**: Enhanced visual feedback for low vision users
-- **🔊 Audio Cues**: Optional sound feedback for gesture recognition
-- **⚡ Sensitivity Settings**: Adjustable gesture thresholds
-- **🖐️ One-Hand Mode**: Full functionality with single hand
-- **⏸️ Gesture Pause**: Temporary disable for fatigue management
-
----
-
 ## 🧠 Technical Deep Dive
 
 ### Custom Gesture Recognition Algorithm
@@ -244,23 +205,6 @@ const constraints = {
     video: { width: 480, height: 360, facingMode: 'user' }
 };
 ```
-
-### System Requirements
-
-**Minimum Requirements:**
-- CPU: Intel i3 8th gen / AMD Ryzen 3 2200G
-- RAM: 4GB available
-- GPU: Integrated graphics (Intel UHD 620+)
-- Camera: Any USB webcam or built-in camera
-
-**Recommended Requirements:**
-- CPU: Intel i5 9th gen / AMD Ryzen 5 3600
-- RAM: 8GB available  
-- GPU: Dedicated graphics (GTX 1050+ / RX 560+)
-- Camera: 720p webcam with 30fps capability
-
----
-
 ## 🛣️ Development Roadmap
 
 ### ✅ Completed Features
@@ -393,11 +337,10 @@ If you use HandiView in academic research, please cite:
 
 ## 🌐 Connect & Support
 
-- **📧 Email**: [your-email@example.com](mailto:your-email@example.com)
+- **📧 Email**: [your-email@example.com](divya.prakash2514@gmail.com)
 - **🐙 GitHub Issues**: [Report bugs or request features](https://github.com/divya-praksh/HandiView/issues)
 - **💬 Discussions**: [Join the community](https://github.com/divya-praksh/HandiView/discussions)
-- **🐦 Twitter**: [@your-handle](https://twitter.com/your-handle) — Follow for updates
-- **💼 LinkedIn**: [Your Profile](https://linkedin.com/in/your-profile)
+- **💼 LinkedIn**: [Your Profile](www.linkedin.com/in/divya-prakash2514)
 
 ### Support the Project
 
@@ -405,7 +348,6 @@ If HandiView helps your work or research:
 - ⭐ **Star the repository** to show support
 - 🍴 **Fork and contribute** new features
 - 📢 **Share with others** who might benefit
-- ☕ **Buy me a coffee** (optional donation link)
 
 ---
 
