@@ -34,7 +34,7 @@ Traditional 3D model viewers rely on mouse and keyboard input, creating barriers
 | **📱 Compatibility** | Windows, macOS, Linux | All modern browsers |
 | **🔒 Privacy** | Fully offline | Local processing only |
 
-*Custom upload feature in development
+*Custom upload feature in development for Web version, Completed in desktop version. (Use different 3D objects in the models folder or add ur own .obj files)
 
 ---
 
@@ -59,22 +59,6 @@ Desktop Application Architecture
 - **Pygame** — Cross-platform windowing and event handling
 - **Tkinter** — Native file dialog integration
 
-### 📂 Project Structure
-
-```
-desktop-version/
-├── 📄 hand_tracking.py         # Main application entry point
-├── 📄 gesture_engine.py        # Custom gesture recognition logic
-├── 📄 model_loader.py          # 3D model parsing (.obj/.ply)
-├── 📄 renderer.py              # OpenGL rendering pipeline
-├── 📄 requirements.txt         # Python dependencies
-├── 📁 models/                  # Sample 3D models
-│   ├── cube.obj
-│   ├── teapot.obj
-│   └── bunny.ply
-└── 📁 assets/                  # Textures and resources
-    └── default_texture.png
-```
 
 ### 🚀 Quick Start (Desktop)
 
@@ -131,24 +115,6 @@ Web Application Architecture
 - **@mediapipe/hands** — Browser-based hand tracking
 - **WebRTC** — Real-time camera access
 
-### 📂 Project Structure
-
-```
-web-version/
-├── 📄 index.html              # Main application page
-├── 📄 style.css               # Modern UI styling
-├── 📄 app.js                  # Core application logic
-├── 📄 gesture-recognition.js  # Hand tracking algorithms
-├── 📄 three-renderer.js       # Three.js rendering pipeline
-├── 📁 assets/                 # 3D models and textures
-│   ├── models/
-│   │   ├── cube.json
-│   │   └── teapot.json
-│   └── textures/
-│       └── default.jpg
-└── 📄 service-worker.js       # Offline functionality
-```
-
 ### 🚀 Quick Start (Web)
 
 ```bash
@@ -163,22 +129,6 @@ python3 -m http.server 8000
 # Open in browser
 open http://localhost:8000
 ```
-
-**Browser Requirements:**
-- Chrome 88+ (recommended)
-- Firefox 85+
-- Safari 14+
-- Edge 88+
-
-### 🎮 Web Controls
-
-**UI Elements:**
-- 🔄 **Reset Cube** — Return to default position/scale
-- 📹 **Retry Camera** — Reinitialize webcam connection
-- ⚙️ **Settings** — Adjust sensitivity and performance
-- 📊 **Debug Panel** — Real-time gesture confidence scores
-
----
 
 ## 📊 Performance Benchmarks
 
