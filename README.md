@@ -326,7 +326,7 @@ If you use HandiView in academic research, please cite:
 ```bibtex
 @software{handiview2024,
   title={HandiView: Real-Time 3D Hand-Tracking Model Viewer},
-  author={Your Name},
+  author={Divya Prakash},
   year={2024},
   url={https://github.com/divya-praksh/HandiView},
   note={Cross-platform gesture-controlled 3D visualization system}
